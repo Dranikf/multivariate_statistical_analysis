@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import copy
 
 import sys
-sys.path.append("/home/kfa/KFA/Programming/mmsa labs")
+sys.path.append("/home/kfa/KFA/Programming/multivariate_statistical_analysis")
 from common.functions import eig_matlab
 
 

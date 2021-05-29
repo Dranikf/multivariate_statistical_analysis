@@ -3,6 +3,9 @@ import build_disc
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import sys
+
+#print(sys.path[0])
 
 #data1 = pd.read_csv("df1_test.csv")
 #data2 = pd.read_csv("df2_test.csv")
