@@ -47,6 +47,18 @@ def reconstruct_series(Matrix):
     return result
 
 
+def ssa_forecaster(V, N, M, np_y, l):
+    '''funciton for forecasting using ssa basics'''
+    result = copy.copy(np_y)
+
+    result = np.append(result, np.dot(np.dot(V[M-1,:], np.transpose(V[0:M-1,:])),np_y[N-M+1:])/(1-np.dot(V[M-1,:],V[M-1,:])))
+
+    if l > 1:
+        result = ssa_forecaster(V,N+1,M,result, l-1)
+    
+    return result
+
+
 
 # TESTING OF create_matrix
 #test = np.array([[1,2,3,4,5,6,7,8,9,10]])
@@ -60,3 +72,10 @@ def reconstruct_series(Matrix):
 #import pandas as pd
 #d = pd.read_excel('/home/kfa/KFA/Programming/multivariate_statistical_analysis/ysrs2 ssa/matrixes/new_X_matrix.xlsx').to_numpy()
 #print(reconstruct_series(d))
+
+# SSA_forecasting test
+#import pandas as pd
+#V = pd.read_excel("ysrs2 ssa/matrixes/vectors.xlsx").to_numpy()
+#V = V[:, 1:]
+#data = pd.read_csv("ysrs2 ssa/data.csv", sep = ';', decimal = ',')
+#print(ssa_forecaster(V, 48, 12, data['y'].to_numpy(), 3).shape)
