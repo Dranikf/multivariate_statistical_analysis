@@ -9,3 +9,5 @@ big markers shows positions of object with undefined group.
 <img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab1/result_plot.png" height = "600">
 
 # Lab2
+transforming the original data system using the principal components method. 
+eliminates autocorrelation in the data.

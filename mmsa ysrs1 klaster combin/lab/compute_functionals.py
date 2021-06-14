@@ -59,9 +59,7 @@ def functional5_8(data, metrics_computer = eucl_metrics, info = False):
                     print("item "+ str(j) + ":" + str(cluster.loc[j].values.tolist()))
                     print("item "+ str(k) + ":" + str(cluster.loc[k].values.tolist()))
                     print("distance: " + str(metrics_computer(cluster.loc[j], cluster.loc[k])))
-
-                print(cluster.loc[j])
-                print(cluster.loc[k])
+                    
                 sq_dist_sum += metrics_computer(cluster.loc[j], cluster.loc[k])**2
 
     
