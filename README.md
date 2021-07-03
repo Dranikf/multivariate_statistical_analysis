@@ -32,8 +32,6 @@ and result will be like that.
 
 # independent work (ysrs1)
 
-<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/result.png" height = "400">
-
 its for cluster analysis - there is some partition functions - characterize the quality of this or that partition.
 for cluster analysis, we need to choose a functional, and calculate it for all possible partitions.
 First, we get the partitions
