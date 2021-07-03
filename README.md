@@ -12,10 +12,12 @@ big markers shows positions of object with undefined group.
 transforming the original data system using the principal components method. 
 eliminates autocorrelation in the data. For example transforming of some dataset
 
-<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab2/result.png" height = "600">
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab2/result.png" height = "200">
 
 # Lab3
 visualisation of sphere with points
+
+<img src = "hhttps://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab3/result.png" height = "200">
 
 # Lab4
 example of diskriminant analysis for 3 samples
@@ -23,4 +25,7 @@ visualisation of input data
 
 <img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/hello.png" height = "600">
 
-and result will be like that
+for every sample there is separate funciton - for new points (big red points) computes values of funcitons. function with bigest value represent the most close sample.
+and result will be like that. 
+
+<img src = "hhttps://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/result.png" height = "200">
