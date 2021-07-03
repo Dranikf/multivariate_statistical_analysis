@@ -17,7 +17,7 @@ eliminates autocorrelation in the data. For example transforming of some dataset
 # Lab3
 visualisation of sphere with points
 
-<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab3/result.png" height = "200">
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab3/result.png" height = "600">
 
 # Lab4
 example of diskriminant analysis for 3 samples
@@ -28,9 +28,11 @@ visualisation of input data
 for every sample there is separate funciton - for new points (big red points) computes values of funcitons. function with bigest value represent the most close sample.
 and result will be like that. 
 
-<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/result.png" height = "200">
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/result.png" height = "400">
 
 # independent work (ysrs1)
+
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/result.png" height = "400">
 
 its for cluster analysis - there is some partition functions - characterize the quality of this or that partition.
 for cluster analysis, we need to choose a functional, and calculate it for all possible partitions.
@@ -38,8 +40,15 @@ First, we get the partitions
 function theory/combinator.py - works for this purpose. For example objects [1,2,3,4,5,6], clusters [2,3,1]
 combinations will look like: 
 
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/mmsa%20ysrs1%20klaster%20combin/combinations.png" height = "400">
+
 then objects are selected according to the different partitions and substituted in the partition functionals.
 funcionals can be founded in lab/compute_functionals.py.
 example in main notebook. this is partition with best funcitonal value for two equal clusters.
 
 <img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/mmsa%20ysrs1%20klaster%20combin/lab/plot1.png" height = "600">
+
+# independent work (ysrs2)
+
+this is example how singular spectral analysis algoritm can be used for  series smoothing and prediction.
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/ysrs2%20ssa/result.png" height = "600">
