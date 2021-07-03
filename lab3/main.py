@@ -16,7 +16,7 @@ def rand_creator(matrix):
     for i in range(3):
         for j in range(3):
             if i != j:
-                result[i,j] = result[i,j] + np.random.uniform(-0.2,0.2,1)[0]
+                result[i,j] = result[i,j] + np.random.uniform(-0.01,0.01,1)[0]
 
     return result
                 

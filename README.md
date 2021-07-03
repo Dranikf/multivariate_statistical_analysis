@@ -10,4 +10,17 @@ big markers shows positions of object with undefined group.
 
 # Lab2
 transforming the original data system using the principal components method. 
-eliminates autocorrelation in the data.
+eliminates autocorrelation in the data. For example transforming of some dataset
+
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab2/result.png" height = "600">
+
+# Lab3
+visualisation of sphere with points
+
+# Lab4
+example of diskriminant analysis for 3 samples
+visualisation of input data
+
+<img src = "https://github.com/Dranikf/multivariate_statistical_analysis/blob/main/lab4/hello.png" height = "600">
+
+and result will be like that
