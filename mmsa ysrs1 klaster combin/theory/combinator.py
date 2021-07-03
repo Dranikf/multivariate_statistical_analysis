@@ -42,7 +42,7 @@ def ful_combinator(objects, sizes, appendics = []):
     return result
                 
 
-test = ful_combinator([1,2,3,4,5,6,7,8,9,10,11,12], [4,4,4])
+test = ful_combinator([1,2,3,4,5,6], [2,3,1])
 
 f = open("result.txt", 'w')
 
